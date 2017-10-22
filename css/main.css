@@ -1,0 +1,33 @@
+body{
+	font-family: sans-serif;
+}
+ul{/*contenedor*/
+	/*outline: 1px solid yellow;*/
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	background: #2e2e2a;
+	line-height: 40px;
+	overflow: auto;/*devuelve al contenedor su contexto de bloque*/
+
+}
+
+li{
+	/*outline: 1px solid green;*/
+	width: 100px;
+	/*display: inline-block;*/
+	text-align: center;
+	float: left;
+}
+a{
+	/*outline: 1px solid green;*/
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	display: block;
+}
+/*pasar por los item*/
+a:hover{
+	background: #f9a91a;
+	color: #000;
+}
